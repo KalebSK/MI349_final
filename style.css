@@ -1,0 +1,186 @@
+.articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #272838;
+    height: fit-content;
+}
+
+body {
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 0;
+    background-color: #191A24;
+    font-family: Roboto, Segoe UI, sans-serif;
+    border-left: #26FF00 dashed 2px;
+    border-right: #26FF00 dashed 2px;
+}
+
+.nav {
+    background-color: #272838;
+    color: #26FF00;
+    float: right;
+}
+
+
+.title {
+    float: left;
+    padding-left: 1em;
+}
+
+h1 {
+    color: #26FF00;
+    font-family: Roboto, Segoe UI, sans-serif;
+    font-size: 2.65em;
+    margin: 0;
+}
+
+.head {
+    display: inline-block;
+    width: 100%;
+    border-bottom: solid 0.15em #0E6000;
+    background-color: #1E1F2B;
+}
+
+header {
+    background-color: #272838;
+    margin-bottom: 0;
+    height: fit-content;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-bottom: 0.25em;
+    box-shadow: 0px 0px #942d84;
+    transition: box-shadow 0.5s ease-in-out, background-color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+}
+
+li a {
+    display: block;
+    color: #BFC0C0;
+    text-align: center;
+    padding: 1em 1.2em;
+    text-decoration: none;
+    font-family: Roboto, Segoe UI, sans-serif;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+.active {
+    box-shadow: 0px 10px #CB48B7;
+    background-color: #3D3F58;
+}
+
+li:hover:not(.active) {
+    box-shadow: 0px 10px #942d84;
+    background-color: #232432;
+}
+
+li:not(.active) a:hover {
+    color: #26FF00;
+}
+
+h2 {
+    margin-bottom: 0;
+    color: #BFC0C0;
+    font-size: 2em;
+}
+
+p {
+    margin-top: 0;
+    color: #EAF2EF;
+}
+
+article {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.photo {
+    align-content: center;
+    background-color: #272838;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: solid #26FF00 2px;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    color: #EAF2EF;
+}
+
+.participate {
+    background-color: #272838;
+    padding-bottom: 2em;
+}
+
+#part {
+    margin-top: 0;
+}
+
+.foot {
+    color: #CB48B7;
+    text-align: center;
+    background-color: #1E1F2B;
+}
+
+.home1 {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.welcome {
+    padding-bottom: 2em;
+}   
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    column-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    background-color: #272838;
+}
+
+.welcome {
+    height: fit-content;
+}
+
+.logo {
+
+}
+
+.desc {
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-bottom: 1em;
+}
+
+#val {
+    color: #CB48B7;
+}
+
+#discord {
+    color: #CB48B7;
+}
