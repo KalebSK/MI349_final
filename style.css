@@ -184,3 +184,25 @@ figcaption {
 #discord {
     color: #CB48B7;
 }
+
+@media(max-width:1070px) {
+    .articles {
+        display: block;
+        background-color: #272838;
+        height: auto;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+      }
+
+      .overview {
+          background-color: #272838;
+      }
+      
+      #logo {
+          width: 30%;
+      }
+
+}
